@@ -35,5 +35,14 @@ Your CSV file must have these columns:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/auto-student-grouper.git
-   cd auto-student-grouper
+   git clone https://github.com/Sid62/2511AI34_CS5105_2025.git
+   cd 2511AI34_CS5105_2025
+   cd tut_01
+
+ Install dependencies:
+
+  pip install -r requirements.txt
+
+  Run the Streamlit app:
+
+  streamlit run tut_01.py
