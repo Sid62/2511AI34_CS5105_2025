@@ -140,7 +140,7 @@ if file and st.button("Proceed"):
     zipbuf = make_zip(branch_files, bw_files, uni_files, combined_stats)
 
     st.download_button(
-        "📦 Download All Groups (ZIP)",
+        "Download All Groups (ZIP)",
         data=zipbuf,
         file_name=f"Student_Groups_{datetime.now().strftime('%Y%m%d_%H%M%S')}.zip",
         mime="application/zip"
